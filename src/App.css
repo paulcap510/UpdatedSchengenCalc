@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh; /* Ensure it takes at least the full viewport height */
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.navbar,
+.navbar button {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.index {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
